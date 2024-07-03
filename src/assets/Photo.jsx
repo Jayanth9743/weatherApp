@@ -11,6 +11,8 @@ import c1 from "./cloud1.jpg"
 import c2 from "./cloud2.jpg"
 import m1 from "./m1.jpg"
 import n1 from "./n1.jpg"
+import n11 from "./n11.jpg"
+import n13 from "./n13.jpg"
 
 
 
@@ -27,6 +29,8 @@ export const assets ={
  c1,
  c2,
  m1,
- n1
+ n1,
+ n11,
+ n13,
 
 }

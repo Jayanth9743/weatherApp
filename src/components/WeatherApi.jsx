@@ -44,7 +44,7 @@ const WeatherProvider = (props) => {
   const imageToggler = (img) => {
     if (img === "Sunny" || img === "Clear") {
       return assets.s2;
-    } else if (img === "Partly Cloudy" || img === "Cloudy" || img === "Overcast") {
+    } else if (img === "Partly cloudy" || img === "Cloudy" || img === "Overcast") {
       return assets.c1;
     } else if (img === "Mist" || img === "Fog") {
       return assets.m1;
@@ -63,7 +63,7 @@ const WeatherProvider = (props) => {
     } else if (img === "Thundery Outbreaks Possible") {
       return assets.t1;
     } else {
-      return assets.n1;
+      return assets.n13;
     }
   }
   

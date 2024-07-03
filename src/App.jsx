@@ -45,7 +45,7 @@ const App = () => {
 
       <div className="w-full h-screen ">
         {weatherData ?(
-        <div className="w-full h-full bg-cover" style={{ backgroundImage: `url(${weatherData ? imageToggler(weatherData.current.condition.text):assets.n1})`, height:"106vh" }}>
+        <div className="w-full h-full bg-cover" style={{ backgroundImage: `url(${weatherData ? imageToggler(weatherData.current.condition.text):assets.n13})`, height:"106vh" }}>
           <div className="flex flex-col items-center justify-between w-full h-full">
             
             <div className="relative flex items-center justify-start mt-5 w-76">
